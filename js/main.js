@@ -23,7 +23,7 @@ function init(){
 	canWidth = 500;
 	mx = 0;
 	my = 0;
-	canvas = document.getElementById('popstar');
+	canvas = document.getElementById('Starcatcherpop');
 	context = canvas.getContext('2d');
 	canvas.addEventListener('click',onMouseClick);
 	resetBtn = document.getElementById('reset');
