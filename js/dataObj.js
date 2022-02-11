@@ -40,10 +40,12 @@
      context.fillStyle = 'white';
      context.font = "20px 微软雅黑";
      context.fillText("No" + this.level + '', 20, 30);
+     context.fillStyle = 'white';
      context.font = "20px 微软雅黑";
      
      context.fillText("Target: " + this.targetScore, canWidth * 0.35, 40);
-     
+     context.fillStyle = 'white';
+     context.font = "20px 微软雅黑";
      context.fillText("Score: " + this.totalScore, canWidth * 0.35, 85);
      
      context.font = "20px 微软雅黑";
