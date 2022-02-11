@@ -3,6 +3,7 @@ var starObj = function(){
 	this.height = {};
 	this.width = {};
 	this.isDropOver = true;
+	
 }
 
 
