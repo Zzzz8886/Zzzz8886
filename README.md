@@ -1,27 +1,26 @@
-# Popstar 消除星星
+# Starcatchers pop star
 
 This is a copycat of the household game —— PopStar
 
-You're welcomed to try the [Demo](https://wufenfen.github.io/popstar/).
+You're welcomed to try the [star](https://Jinn-eth.github.io/Starcatcherpop/).
 
 If you like it, your star will be appreciated~~~
 
 Here is game rule. Hope you will enjoy!!!
 
-游戏规则  
+# Game rules
+1. A total of 5 color blocks, 10\*10 grids
 
-1. 总共5种颜色方块，10\*10格
+2. Eliminate 2 or more of the same color blocks to get points!
 
-2. 消除2个或2个以上数量相连同色块获得积分；
+# Scoring rules:
 
-计分规则：
+1. Regular scoring: score=n\*n\*5, n represents the number of the same color blocks eliminated by each click;
 
-1. 常规计分：score=n\*n\*5,n表示每次点击消除的相同色块数量；
+2. Additional bonus points: addScore=2000-m\*m\*20, m represents the number of remaining color blocks, and the minimum value of addscore is 0;
 
-2. 额外奖分：addScore=2000-m\*m\*20,m表示剩余色块的数量，addscore最小值为0；
+3. Level total score: score + addScore
 
-3. 关卡总得分：score + addScore
+# Clearance conditions
 
-过关条件
-
-关卡总得分>=目标分数=1000+(level-1)\*3000。
+The total score of the level>=target score=1000+(level-1)\*3000.
