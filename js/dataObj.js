@@ -40,12 +40,12 @@
      context.fillStyle = 'white';
      context.font = "20px 微软雅黑";
      context.fillText("No" + this.level + '', 20, 30);
-     context.font = "25px 微软雅黑";
-     drawUI1(canWidth * 0.32, 10, 170, 45);
+     context.font = "20px 微软雅黑";
+     
      context.fillText("Target: " + this.targetScore, canWidth * 0.35, 40);
-     drawUI1(canWidth * 0.32, 55, 170, 45);
+     
      context.fillText("Score: " + this.totalScore, canWidth * 0.35, 85);
-     drawUI2(canWidth * 0.3, 105, 200, 38);
+     
      context.font = "20px 微软雅黑";
      context.fillText('Eliminate' + this.popNum + ": " + this.score, canWidth * 0.35, 130);
 
