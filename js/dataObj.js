@@ -14,7 +14,7 @@
      this.count = 0; // count the time that text stay in the middle
      this.popEncourType = -1;
      this.increase = true;
-     this.popEncourage = ['棒棒哒！', '帅呆了！', '不可思议！', '屌炸天了!', '你是地球来的吗？'];
+     this.popEncourage = ['Great！', 'Awesome！', 'Cool！', 'Incredible!', 'Oh my god'];
  }
 
  dataObj.prototype.update = function(popNum) {
@@ -39,15 +39,15 @@
  dataObj.prototype.draw = function() {
      context.fillStyle = 'white';
      context.font = "20px 微软雅黑";
-     context.fillText("第 " + this.level + '关', 20, 30);
+     context.fillText("No" + this.level + '', 20, 30);
      context.font = "25px 微软雅黑";
      drawUI1(canWidth * 0.32, 10, 170, 45);
-     context.fillText("目标: " + this.targetScore, canWidth * 0.35, 40);
+     context.fillText("Target: " + this.targetScore, canWidth * 0.35, 40);
      drawUI1(canWidth * 0.32, 55, 170, 45);
-     context.fillText("得分: " + this.totalScore, canWidth * 0.35, 85);
+     context.fillText("Score: " + this.totalScore, canWidth * 0.35, 85);
      drawUI2(canWidth * 0.3, 105, 200, 38);
      context.font = "20px 微软雅黑";
-     context.fillText('消除' + this.popNum + "个: " + this.score, canWidth * 0.35, 130);
+     context.fillText('Eliminate' + this.popNum + ": " + this.score, canWidth * 0.35, 130);
 
      if (this.popEncourType !== -1) {
          if (this.increase) {
@@ -80,8 +80,8 @@
          }
          context.fillStyle = "rgba(255,255,255," + this.alpha + ")";
          context.font = "30px 微软雅黑";
-         context.fillText("剩余: " + this.leftStar, canWidth * 0.35, canHeight * 0.4);
-         context.fillText("奖励: " + this.bonus, canWidth * 0.35, canHeight * 0.45);
+         context.fillText("Left: " + this.leftStar, canWidth * 0.35, canHeight * 0.4);
+         context.fillText("Prize: " + this.bonus, canWidth * 0.35, canHeight * 0.45);
      }
 
      if (this.pass) {
@@ -96,7 +96,7 @@
              }
          }
          context.font = "30px 微软雅黑";
-         context.fillText("第" + this.level + '关, 目标: ' + this.targetScore, this.right, canHeight * 0.5);
+         context.fillText("No" + this.level + ' Target: ' + this.targetScore, this.right, canHeight * 0.5);
      }
 
      if (this.gameOver) {
@@ -105,7 +105,7 @@
          }
          context.fillStyle = "rgba(255,255,255," + this.alpha + ")";
          context.font = "30px 微软雅黑";
-         context.fillText("游戏结束: 总分为" + this.totalScore, canWidth * 0.2, canHeight * 0.5);
+         context.fillText("GameOver: Total score is " + this.totalScore, canWidth * 0.2, canHeight * 0.5);
      }
 
 
