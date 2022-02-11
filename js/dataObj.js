@@ -105,7 +105,8 @@
          }
          context.fillStyle = "rgba(255,255,255," + this.alpha + ")";
          context.font = "30px 微软雅黑";
-         context.fillText("GameOver: Total score is " + this.totalScore, canWidth * 0.2, canHeight * 0.5);
+         context.fillText("GameOver", canWidth * 0.2, canHeight * 0.5);
+         context.fillText("Total score is:" + this.totalScore, canWidth * 0.2, canHeight * 0.5);
      }
 
 
