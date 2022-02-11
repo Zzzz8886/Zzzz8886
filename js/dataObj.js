@@ -80,8 +80,8 @@
          }
          context.fillStyle = "rgba(255,255,255," + this.alpha + ")";
          context.font = "30px 微软雅黑";
-         context.fillText("Left: " + this.leftStar, canWidth * 0.35, canHeight * 0.4);
-         context.fillText("Prize: " + this.bonus, canWidth * 0.35, canHeight * 0.45);
+         context.fillText("Left: " + this.leftStar, canWidth * 0.35, canHeight * 0.2);
+         context.fillText("Prize: " + this.bonus, canWidth * 0.35, canHeight * 0.25);
      }
 
      if (this.pass) {
@@ -105,8 +105,8 @@
          }
          context.fillStyle = "rgba(255,255,255," + this.alpha + ")";
          context.font = "30px 微软雅黑";
-         context.fillText("GameOver", canWidth * 0.2, canHeight * 0.5);
-         context.fillText("Total score is:" + this.totalScore, canWidth * 0.2, canHeight * 0.5);
+         context.fillText("GameOver", canWidth * 0.2, canHeight * 0.3);
+         context.fillText("Total score is:" + this.totalScore, canWidth * 0.2, canHeight * 0.35);
      }
 
 
