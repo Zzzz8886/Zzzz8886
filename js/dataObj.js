@@ -39,7 +39,7 @@
  dataObj.prototype.draw = function() {
      context.fillStyle = 'white';
      context.font = "20px 微软雅黑";
-     context.fillText("No" + this.level + '', 20, 30);
+     context.fillText("Level " + this.level + '', 20, 30);
      context.fillStyle = 'white';
      context.font = "20px 微软雅黑";
      
@@ -48,8 +48,6 @@
      context.font = "20px 微软雅黑";
      context.fillText("Score: " + this.totalScore, canWidth * 0.35, 85);
      
-     context.font = "20px 微软雅黑";
-     context.fillText('Eliminate' + this.popNum + ": " + this.score, canWidth * 0.35, 130);
 
      if (this.popEncourType !== -1) {
          if (this.increase) {
