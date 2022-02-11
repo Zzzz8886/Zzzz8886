@@ -5,6 +5,7 @@ var starObj = function(){
 	this.isDropOver = true;
 }
 
+
 starObj.prototype.init = function(){
 	for(var i=0; i<5; i++){
 		var unit = new Image();
