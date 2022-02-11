@@ -139,7 +139,7 @@ chessObj.prototype.update = function(){
 			}
 		}
 		else{
-			if(gap>0){
+			if(gap>0){ 
 				mergeData[i] = i-gap;
 			}
 		}
