@@ -6,6 +6,7 @@ function drawBackground(){
 	}
 }
 
+
 function drawUI1(x, y,width,height){
 	var img = new Image();
 	img.src = 'style/img/ui1.png'; 
