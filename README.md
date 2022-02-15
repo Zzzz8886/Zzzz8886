@@ -1,8 +1,8 @@
-# Starcatchers pop star
+# WonderPals star
 
 This is a copycat of the household game —— PopStar
 
-You're welcomed to try the [starcatcherpop game](https://Jinn-eth.github.io/Starcatcherpop/).
+You're welcomed to try the [wonderpals game](https://Zzzz8886.github.io/Zzzz8886/).
 
 If you like it, your star will be appreciated~~~
 
