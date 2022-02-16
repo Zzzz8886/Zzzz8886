@@ -37,14 +37,14 @@
  }
 
  dataObj.prototype.draw = function() {
-     context.fillStyle = 'white';
+     context.fillStyle = 'black';
      context.font = "20px 微软雅黑";
      context.fillText("Level " + this.level + '', 20, 30);
-     context.fillStyle = 'white';
+     context.fillStyle = 'balck';
      context.font = "20px 微软雅黑";
      
      context.fillText("Target: " + this.targetScore, canWidth * 0.35, 40);
-     context.fillStyle = 'white';
+     context.fillStyle = 'black';
      context.font = "20px 微软雅黑";
      context.fillText("Score: " + this.totalScore, canWidth * 0.35, 85);
      
